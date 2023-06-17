@@ -7,9 +7,7 @@ const Menu = () => {
       <h1 className="text-center text-2xl uppercase font-bold ">Menu</h1>
       <div className="menuContainer">
         {menuItems.map((item) => {
-          return (
-           <MenuItem item={item} />
-          );""
+          return <MenuItem key={item.id} item={item} />;
         })}
       </div>
     </div>
