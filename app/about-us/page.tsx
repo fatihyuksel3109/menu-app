@@ -8,21 +8,21 @@ const AboutUs = () => {
           About Us
         </h1>
         <p className="mb-4">
-          The Foodies Delight is a restaurant that celebrates the worlds
+          The Foodie's Delight is a restaurant that celebrates the world's
           culinary diversity. We offer a wide variety of dishes from different
           cultures, all made with fresh, high-quality ingredients. Whether
-          you are in the mood for Italian pasta, Mexican tacos, or Chinese
+          you're in the mood for Italian pasta, Mexican tacos, or Chinese
           dumplings, we have something for everyone.
         </p>
         <p className="mb-4">
-          We believe that food is more than just sustenance. Its a way to
+          We believe that food is more than just sustenance. It's a way to
           connect with others, to share cultures, and to experience new things.
-          Thats why we take great care in preparing our food, and we are always
+          That's why we take great care in preparing our food, and we're always
           looking for new and exciting ways to bring the world to your table.
-          Come join us for a culinary adventure at The Foodies Delight. We
-          promise you wont be disappointed. This is just a starting point, of
+          Come join us for a culinary adventure at The Foodie's Delight. We
+          promise you won't be disappointed. This is just a starting point, of
           course. You can customize the motto and about us page content to fit
-          your own restaurants personality and style. But I hope this gives you
+          your own restaurant's personality and style. But I hope this gives you
           some ideas to get started.
         </p>
       </div>

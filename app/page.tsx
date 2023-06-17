@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <div className="items-center text-xl sm:text-2xl p-4 mt-4">
-        <h1 className="text-center font-bold">The Foodies Delight: </h1>
+        <h1 className="text-center font-bold">The Foodie's Delight: </h1>
         <h1 className="text-center font-bold">Where Food is Art!</h1>
       </div>
       <div className="imageContainer">
