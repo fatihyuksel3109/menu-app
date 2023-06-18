@@ -7,11 +7,11 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="logo">
+        <Link href="/" className="logo ml-2 sm:ml-20">
           <Image
-            src="/favicon.ico"
-            width={75}
-            height={75}
+            src="/images/logo.png"
+            width={120}
+            height={120}
             alt="Restaurant logo"
           />
         </Link>
