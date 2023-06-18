@@ -442,7 +442,7 @@ export const desserts = [
     description:
       "A classic American dessert made with a flaky crust and a sweet, tart apple filling.",
     price: 5.99,
-    imgUrl: "https://picsum.photos/id/31/200/300",
+    imgUrl: "https://picsum.photos/id/66/200/300",
   },
   {
     id: 4,
