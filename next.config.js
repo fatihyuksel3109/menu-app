@@ -6,6 +6,8 @@ module.exports = {
     domains: [
       "fastly.picsum.photos",
       "picsum.photos",
+      "images.unsplash.com",
+      "plus.unsplash.com",
     ],
   },
 };

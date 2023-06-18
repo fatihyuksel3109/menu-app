@@ -10,8 +10,8 @@ const Header = () => {
         <Link href="/" className="logo ml-2 sm:ml-20">
           <Image
             src="/images/logo.png"
-            width={120}
-            height={120}
+            width={150}
+            height={150}
             alt="Restaurant logo"
           />
         </Link>

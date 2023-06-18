@@ -21,17 +21,17 @@ const Card: React.FC<CardProps> = ({ item, section }) => {
     >
       <div
         style={{ position: "relative" }}
-        className="imageContainer flex flex-col mb-4 p-5 hover:opacity-70"
+        className="imageContainer flex flex-col mb-4 p-4 hover:opacity-70"
       >
-          <Image
-            className=" rounded-xl"
-            src={item.imgUrl}
-            fill
-            alt={item.name}
-            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
-          />
+        <Image
+          className=" rounded-xl"
+          src={item.imgUrl}
+          fill
+          alt={item.name}
+          sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+        />
       </div>
-        <h1 className="text-xl font-semibold hover:opacity-60">{item.name}</h1>
+      <h4 className="font-semibold hover:opacity-60">{item.name}</h4>
     </div>
   );
 };

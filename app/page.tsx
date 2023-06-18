@@ -5,7 +5,7 @@ import Menu from "./menu/page";
 
 export default function Home() {
   return (
-    <div>
+    <div className="mainPage mb-100">
       <div className="flex flex-col sm:flex-row justify-center text-xl sm:text-2xl p-4 mt-4">
         <h1 className="text-center font-bold">The Foodie's Delight: </h1>
         <h1 className="text-center ml-2 font-bold">Where Food is Art!</h1>

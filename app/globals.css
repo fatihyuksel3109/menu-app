@@ -7,7 +7,7 @@
   h2,
   h3,
   h4 {
-    @apply uppercase text-xl;
+    @apply uppercase;
     font-family: Merriweather, Proxima Nova, sans-serif;
   }
   html {

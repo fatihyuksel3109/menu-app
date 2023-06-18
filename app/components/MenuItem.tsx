@@ -13,7 +13,7 @@ interface MenuItemProps {
 const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
   return (
     <div
-      className="menuItem p-10 shadow-lg shadow-slate-500 items-center"
+      className="menuItem p-16 shadow-lg shadow-slate-500 items-center"
       key={item.id}
     >
       <Link href={item.link}>
