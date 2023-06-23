@@ -1,9 +1,14 @@
-import React from "react";
+"use client"
+import React, { useEffect } from "react";
+import { metadata } from "../layout";
 
 const AboutUs = () => {
+  useEffect(() => {
+    document.title = `About Us | ${metadata.title}`;
+  }, []);
   return (
-    <div className="max-w-1200 mx-auto items-center text-center p-4 mt-4 mb-20">
-      <div className="max-w-1100 px-10">
+    <div className="w-11/12 sm:w-1/2 md:w-2/5 bg-slate-300 shadow-lg shadow-slate-500 rounded-sm items-center mx-auto text-center p-4 my-10">
+      <div className="max-w-1100 text-black px-10">
         <h1 className="text-xl sm:text-2xl uppercase mb-6 font-bold">
           About Us
         </h1>
@@ -26,12 +31,12 @@ const AboutUs = () => {
           some ideas to get started.
         </p>
       </div>
-      <div className="bg-slate-900 mt-4 shadow-md mx-auto shadow-slate-500 p-4 w-max-1100">
+      <div className="bg-slate-900 mt-4 shadow-md mx-auto shadow-slate-500 p-4">
         <h2 className="text-center mb-4 text-xl font-semibold">Contact Info</h2>
-        <div className="flex flex-col sm:flex-row">
-          <p className="text-start pl-6 mb-2">* Phone: (123) 456-7890</p>{" "}
+        <div className="flex flex-col">
+          <p className="text-start pl-6 mb-2">* Phone: (123) 456-7890</p>
           <p className="text-start pl-6 mb-2">
-            * Email: info@thefoodiedelight.com{" "}
+            * Email: info@thefoodiedelight.com
           </p>
           <p className="text-start pl-6 mb-2">
             * Website: www.thefoodiedelight.com
@@ -40,7 +45,7 @@ const AboutUs = () => {
       </div>
       <div className="bg-slate-900 mt-4 shadow-md shadow-slate-500 p-4 w-max-1100">
         <h2 className="text-center mb-4 text-xl font-semibold">Address:</h2>
-        <div className="flex flex-col sm:flex-row">
+        <div className="flex flex-col ">
           <p className="text-start pl-6 mb-2">* 123 Main Street </p>
           <p className="text-start pl-6 mb-2">* Anytown, CA 12345</p>
         </div>
