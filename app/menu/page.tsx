@@ -1,15 +1,9 @@
-"use client";
-import { useEffect } from "react";
 import { menuItems } from "../data/data";
 import MenuItem from "../components/MenuItem";
-import { metadata } from "../layout";
 
-const Menu = () => {
+const Menu = () => { 
 
-  useEffect(() => {
-    document.title = `Menu | ${metadata.title}`
-  }, [])
-
+  
   return (
     <div className="mb-20 pt-4 mt-4 ">
       <h1 className="text-center text-2xl uppercase font-bold ">Menu</h1>

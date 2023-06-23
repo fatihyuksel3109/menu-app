@@ -1,14 +1,8 @@
-"use client"
-import React, { useEffect } from "react";
+import React from "react";
 import Card from "../components/Card";
 import { entrees } from "../data/data";
-import { metadata } from "../layout";
 
 const Entrees = () => {
-
-  useEffect(() => {
-    document.title = `Entrees | ${metadata.title}`
-  }, [])
 
   return (
     <div className="mb-20">

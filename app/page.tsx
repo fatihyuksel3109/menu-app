@@ -1,16 +1,11 @@
-"use client";
 import Image from "next/image";
 import Carousel from "./components/Carousel";
 import { images } from "./data/data";
 import Menu from "./menu/page";
-import { useEffect } from "react";
-import { metadata } from "./layout";
+
 
 export default function Home() {
-
-  useEffect(() => {
-    document.title = `${metadata.title}`
-  }, [])
+  
 
   return (
     <div className="mainPage mb-100">

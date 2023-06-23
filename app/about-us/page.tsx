@@ -1,11 +1,7 @@
-"use client"
-import React, { useEffect } from "react";
-import { metadata } from "../layout";
+import React from "react";
 
 const AboutUs = () => {
-  useEffect(() => {
-    document.title = `About Us | ${metadata.title}`;
-  }, []);
+  
   return (
     <div className="w-11/12 sm:w-1/2 md:w-2/5 bg-slate-300 shadow-lg shadow-slate-500 rounded-sm items-center mx-auto text-center p-4 my-10">
       <div className="max-w-1100 text-black px-10">

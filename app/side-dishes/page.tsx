@@ -1,14 +1,9 @@
-"use client";
-import React, { useEffect } from "react";
+import React from "react";
 import Card from "../components/Card";
 import { sideDishes } from "../data/data";
-import { metadata } from "../layout";
 
 const SideDishes = () => {
 
-  useEffect(() => {
-    document.title = `Side Dishes | ${metadata.title}`
-  }, [])
 
   return (
     <div className="mb-20">
