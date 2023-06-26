@@ -5,11 +5,9 @@ import ProductCard from "@/app/components/ProductCard";
 const BeverageItemPage = () => {
   
   const pathname = usePathname();
-  console.log(pathname);
   const id = pathname.split('/').pop();
 
   const beverage = beverages.find((item) => item.id === Number(id));
-  console.log(beverage);
 
   // Find the beverage with the corresponding id
 

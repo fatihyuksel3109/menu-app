@@ -5,21 +5,19 @@ import ProductCard from "@/app/components/ProductCard";
 const SpecialItemPage = () => {
 
   const pathname = usePathname();
-  console.log(pathname);
   const id = pathname.split('/').pop();
 
-  const Special = chefSpecials.find((item) => item.id === Number(id));
-  console.log(Special);
+  const special = chefSpecials.find((item) => item.id === Number(id));
 
   // Find the Special with the corresponding id
 
-  if (!Special) {
+  if (!special) {
     return <div>Special not found.</div>;
   }
 
   return (
     <div>
-      <ProductCard item={Special} />
+      <ProductCard item={special} />
     </div>
   );
 };
