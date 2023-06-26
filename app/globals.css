@@ -89,7 +89,7 @@ body {
   }
 }
 
-.appetizerContainer {
+.menu-product-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
@@ -145,13 +145,13 @@ body {
 .header {
   padding: 1rem;
   border-bottom: 1px solid #ccc;
-  height: 100px;
+  height: 100%;
 }
 .logo {
-  width: 80px;
+  width: 120px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
   .logo {
     display: none;
   }

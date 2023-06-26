@@ -7,20 +7,20 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="logo ml-2 sm:ml-20">
+        <Link href="/" className="logo sm:ml-20">
           <Image
-            src="/images/logo.png"
+            src="/images/nav-logo.png"
             width={150}
-            height={150}
+            height={80}
             alt="Restaurant logo"
           />
         </Link>
-        <nav className="nav">
+        <nav className="nav items-center justify-center">
           {pages.map((page) => (
             <Link
               key={page.id}
               href={page.link}
-              className="nav-link p-1 sm:p-2 border-2 rounded-lg text-md mx-1 sm:text-xl sm:mx-6"
+              className="nav-link p-1 sm:p-2 border-2 rounded-xl text-md mx-1 sm:text-xl sm:mx-6"
             >
               {page.name}
             </Link>
